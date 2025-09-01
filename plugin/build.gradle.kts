@@ -14,7 +14,7 @@ repositories {
 
 dependencies {
     implementation("org.scala-lang:scala-library:2.13.12")
-    implementation("com.databricks:sjsonnet_2.13:0.4.9")
+    implementation("com.databricks:sjsonnet_2.13:0.5.6")
     testImplementation("org.scalatest:scalatest_2.13:3.2.17")
     testImplementation(platform("org.junit:junit-bom:5.10.1"))
     testImplementation("org.junit.jupiter:junit-jupiter")
